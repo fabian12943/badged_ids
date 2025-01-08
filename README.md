@@ -124,7 +124,7 @@ in your Rails application.
 
 ```ruby
 # config/initializers/badged_ids.rb
-BadgedIds.configure do |config|
+BadgedIds.config do |config|
   config.alphabet = "abc123"
   config.delimiter = "-"
   config.minimum_length = 20
