@@ -5,7 +5,7 @@ module BadgedIds
     class << self
       def register(badge, model)
         badge = badge.to_s
-        if models.key?(badge) && models[badge] != model
+        if models.key?(badge) && models[badge].to_s != model.to_s
           raise RegistryError, "Badge `#{badge}` is already assigned to `#{models[badge]}`."
         end
 

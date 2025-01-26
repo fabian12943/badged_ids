@@ -1,6 +1,6 @@
 RSpec.describe BadgedIds::Registry do
   let(:badge) { :foo }
-  let(:model) { double("Model") }
+  let(:model) { double("Model", to_s: "Model") }
   let(:different_model) { double("Different Model", to_s: "DifferentModel") }
 
   after do
