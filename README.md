@@ -1,7 +1,7 @@
 # Badged IDs
 
 ### Descriptive and Secure IDs for your Rails Models
-[![Build Status](https://github.com/fabian12943/badged_ids/workflows/CI/badge.svg)](https://github.com/fabian12943/badged_ids/actions)
+[![Build Status](https://github.com/fabian12943/badged_ids/workflows/CI/badge.svg?cache-control=no-cache)](https://github.com/fabian12943/badged_ids/actions)
 
 Badged IDs makes it simple to create descriptive and secure identifiers for your Rails
 models.
